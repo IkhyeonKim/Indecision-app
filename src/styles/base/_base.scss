@@ -1,0 +1,24 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $secondary-color;
+    color: white;
+    font-size: $m-size;
+}
+
+button {
+    cursor: pointer;
+
+    &:disabled {
+        cursor: default;
+    }
+}

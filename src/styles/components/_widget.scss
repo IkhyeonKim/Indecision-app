@@ -1,0 +1,18 @@
+.widget__header {
+    display: flex;
+    background: $widget-color;
+    color: #ccc;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.widget {
+    background: $widget-color-light;
+    margin-bottom: 3rem;
+
+    &__message {
+        text-align: center;
+        padding: 3rem;
+        border-bottom: 1px solid lighten($color: $widget-color-light, $amount: 15%);
+    }
+}

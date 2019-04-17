@@ -1,0 +1,14 @@
+.header {
+    background-color: $primary-color;
+    &__title {
+        font-size: 5rem;
+        margin: 0;
+    }
+
+    &__subtitle {
+        font-size: 2.2rem;
+    }
+
+    padding: $m-size;
+    
+}
